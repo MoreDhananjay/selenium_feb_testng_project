@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test  name="Verify Car Home EMI">
+    <classes>
+      <class name="com.itview.testcases.CarHomeEMI_Test"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test  name="Verify Edu Loan EMI">
+    <classes>
+      <class name="com.itview.testcases.EducationalLoanEMI_Test"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test  name="Verify Credit Card EMI">
+    <classes>
+      <class name="com.itview.testcases.CreditCardEMI_Test"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

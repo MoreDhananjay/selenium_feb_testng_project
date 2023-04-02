@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify Car Home EMI(failed)">
+    <classes>
+      <class name="com.itview.testcases.CarHomeEMI_Test">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="oneLakhLoanAmount"/>
+        </methods>
+      </class> <!-- com.itview.testcases.CarHomeEMI_Test -->
+    </classes>
+  </test> <!-- Verify Car Home EMI(failed) -->
+</suite> <!-- Failed suite [Suite] -->
