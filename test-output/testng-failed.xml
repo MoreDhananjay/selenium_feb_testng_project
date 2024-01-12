@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.itview.testcases.DataDriven_FD_DataProvider">
+      <class name="com.itview.assignments.Assignment1_TS2_Chrome">
         <methods>
-          <include name="beforeTest"/>
-          <include name="f" invocation-numbers="0 1 2"/>
+          <include name="verifyHomepage"/>
           <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.itview.testcases.DataDriven_FD_DataProvider -->
+      </class> <!-- com.itview.assignments.Assignment1_TS2_Chrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
